@@ -29,7 +29,7 @@ class Edge{
 		this.endEdge = end;
 	}
 	public String getEdge() {
-		return "Edge : " + String.valueOf(startEdge.getLabel()) + " -- " + String.valueOf(endEdge.getLabel());
+		return "Edge: " + String.valueOf(startEdge.getLabel()) + " -- " + String.valueOf(endEdge.getLabel());
 	}
 	public Vertex getStartEdge() {
 		return startEdge;
@@ -58,12 +58,12 @@ class Graph{
 		this.vertexArr = vertexArr;
 	}
 	
-	public void displayVertex() {
+	public void printVertex() {
 		for (Vertex v : vertexArr) {
-			System.out.println(v.getLabel());
+			System.out.println("Label: " + v.getLabel());
 		}
 	}
-	public void displayEdges() {
+	public void printEdges() {
 		for (Edge e : edgesArr) {
 			System.out.println(e.getEdge());
 		}
