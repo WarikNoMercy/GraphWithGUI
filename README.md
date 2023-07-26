@@ -3,6 +3,7 @@
 ## Description
 
 This project implements Graph and displays it in window.
+Window for the graph was implemented with java Swing.
 
 ## How to use it
 
@@ -33,6 +34,21 @@ edgeArr[3]= ed4;
 g1.addVertexes(verArr);
 g1.addEdges(edgeArr);
 ```
+There's the example of creating our frame for graph:
+
+```
+JFrame frame = new JFrame("Graph");
+frame.setSize(400,400);
+frame.setLocation(0,0);
+frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+frame.setContentPane(new GraphPanel(g1));
+frame.setVisible(true);
+```
+
+That's how our graph looks in the window:
+
+![Безымянный](https://github.com/WarikNoMercy/GraphWithGUI/assets/64106129/0648a441-a098-4462-a1c0-61ec4958ed1d)
+
 
 ## Functions
 
