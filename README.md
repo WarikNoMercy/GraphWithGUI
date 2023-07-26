@@ -1,5 +1,4 @@
 # GraphWithGUI
-[Название проекта]
 
 ## Description
 
