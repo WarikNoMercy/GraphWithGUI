@@ -6,9 +6,9 @@ This project implements Graph and displays it in window.
 
 ## How to use it
 
-In this piece of code from Main file we can see example of creating graph.
-We create array of vertexes and edges, then add them in our graph.
-Our vertex class has label which we can set in constuctor.
+In this piece of code from Main file, we can see an example of creating graph.
+We create an array of vertexes and edges, then add them in our graph.
+Our vertex class has label which we can set in constructor.
 Edge class takes two vertexes in parameters.
 
 ```
@@ -49,9 +49,9 @@ getVertexArr : return array of vertexes
 
 getEdgesArr : return array of edges
 
-addVertexes : take from parameter array of vertexes, afterward set it in graph
+addVertexes : take from the parameter array of vertexes, afterward set it in the graph
 
-addEdges : take from parameter array of Edges, afterward set it in graph
+addEdges : take from the parameter array of Edges, afterward set it in the graph
 
 printVertex : display all vertexes in console
 
