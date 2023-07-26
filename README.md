@@ -11,7 +11,7 @@ We create array of vertexes and edges, then add them in our graph.
 Our vertex class has label which we can set in constuctor.
 Edge class takes two vertexes in parameters.
 
-'''
+```
 Graph g1 = new Graph();
 char [] vertexes = {'1','2','5','4'};
 Vertex verArr[] = new Vertex[4];
@@ -32,7 +32,7 @@ edgeArr[2] = ed3;
 edgeArr[3]= ed4;
 g1.addVertexes(verArr);
 g1.addEdges(edgeArr);
-'''
+```
 
 ## Functions
 
